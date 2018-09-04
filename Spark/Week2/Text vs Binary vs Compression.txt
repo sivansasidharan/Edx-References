@@ -1,0 +1,15 @@
+TEXT FILES
+
+Text files typically contain lines of ASCII or Unicode characters and may use a human-readable format. Because they are human-readable, text files usually have low entropy which means that they take up more space than necessary to represent the information they contain. Text files can contain binary data, but that data must be encoded in textual form. Examples of text files are Comma Separated Value files,  Python files, and even iPython notebook files.
+
+BINARY FILES
+
+Binary files are files that are not text files. They consist of sequences of bytes and may contain parts that can be interpreted as text, and may contain headers, or blocks of metadata that can used by a computer program to interpret the data in the file. Examples of binary files are images, video and sound files, and computer programs.
+
+COMPRESSION
+
+Compression is used to store a file's contents in a binary format that more information dense, and thus typically takes up less space than the original contents. There are two types of compression: lossy and lossless. When compression is applied to a text file, the resulting information must be stored in a binary file.
+
+Lossy compression by its name, means compression where information is lost or discarded. Examples are image, sound, and video compression. There a various lossy compression techniques that take advantage of the way that we see or hear content to discard extra information without being our noticing the differences (in most cases) between the original and the compressed content. Examples of lossy compression are JPEG for images, MP3 for sound files, and MPEG-4 for video files.
+
+Lossless compression is a set of techniques that reduces the amount of space that data takes without discarding any of the data, and it is used in cases where it is important that the original and the decompressed data be identical. A lossless compression algorithm works in two steps:  first, it generates a statistical model for the input data, and second, it uses this model to map input data to bit sequences in such a way that "probable" (e.g., frequently encountered) data will produce shorter output than "improbable" data. Two examples of lossless compression algorithms are Gzip and LZ4. Each of these algorithms has tradeoffs as discussed in the lecture segment video. Examples of lossless compression are PNG for images and Dolby TrueHD for sound files.
